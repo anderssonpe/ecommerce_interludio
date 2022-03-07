@@ -1,0 +1,136 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(199, 195, 195);
+}
+
+header{
+    background-color: bisque;
+    padding: 40px;
+    margin-top: 0%;
+
+}
+
+ul{
+    list-style: none;
+    font-size: 0;
+
+}
+
+li{
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    font-size: 20px;
+
+ }
+
+
+
+.parrafo{
+    font-family: monospace;
+    color: brown;
+}
+
+.parrafoSiguiente{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(231, 217, 245);
+    background-color: rgb(219, 189, 148)
+}
+
+.imagenCentral{
+    margin: 30px;
+}
+
+
+
+.secciones{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 248, 248);
+}
+
+
+
+.imagen_principal{
+    image-orientation: from-image;
+}
+
+
+.fondo_principal{
+    height: 400px;
+    padding: 40px;
+    padding-top: 40px;
+    background-color: rgb(187, 199, 199);
+    display: flex;
+}
+
+.caja_1{
+    height: 300px;
+    width: 300px;
+    padding-inline-end: 10px;
+    background-color: rgb(163, 141, 184);
+    font-kerning: auto;
+    font-size: medium;
+    display: flex;
+    text-align: center;
+
+}
+
+.imagen_central{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+.caja_2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(94, 153, 133);
+    position: relative;
+    text-align: center;
+}
+
+.caja_3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(67, 67, 116);
+    outline-color: rgb(212, 41, 41);
+    text-align: center;
+}
+
+.caja_4{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+
+
+article{
+    height: 45%;
+    padding: 1rem 0;
+    background-color: rgb(189, 166, 131);
+    color: rgb(255, 255, 255);
+}
+
+
+.seccion_1{
+    padding-bottom: 0%;
+    color: rgb(252, 252, 252);
+    background-color: brown;
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgb(83, 83, 83);
+    padding: 50px;
+    margin-bottom: 0%;
+    color: aliceblue;
+}
